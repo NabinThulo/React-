@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.top-header ul {
+  display: flex;
+  gap: 15px;
+}
+.top-header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.top-header .top-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .top-nav-wrap .aside-top a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+.main-navbar {
+  background: #FF9800;
+}
+.main-navbar .navbar-nav li a {
+  color: #fff;
+}
+
+.main-navbar form {
+  position: relative;
+}
+
+.main-navbar form button {
+  position: absolute;
+  right: 8px;
+  border: 1px solid transparent;
+}
+
+.main-navbar form input {
+  width: 580px;
+}
+.main-navbar .dropdown-menu li a {
+  color: #FF9800;
+}
